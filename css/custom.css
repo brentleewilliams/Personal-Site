@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'SocialFoundicons';
+  src: url('fonts/social_foundicons.eot');
+  src: url('fonts/social_foundicons.eot?#iefix') format('embedded-opentype'),
+       url('fonts/social_foundicons.woff') format('woff'),
+       url('fonts/social_foundicons.ttf') format('truetype'),
+       url('fonts/social_foundicons.svg#SocialFoundicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ 
+.social.foundicon {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+ 
+.social.foundicon:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+.social.foundicon-twitter, .social.foundicon-linkedin, .social.foundicon-dribbble, .social.foundicon-github, .fi-social-medium, .social.foundicon-pinterest {
+   font-size: 1.75em;
+   white-space: nowrap;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .top-bar-section li.active:not(.has-form) a:not(.button) {
+      padding: 0 15px;
+      line-height: 45px;
+      color: black;
+      background: #ffffff; 
+  }
+  .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+        color: #dcb245;
+        background: #ffffff; }
+ }
+
+
+.top-bar {
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	height:6em;
+}
+
+.title-area img{
+	margin-left: 4em;
+	margin-top: 1.35em;
+}
+
+h1{
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 100;
+	line-height: .875em;
+}
+
+.top-bar h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 100;
+}
+
+p{
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 100;
+}
+
+.large-12.columns {
+	padding:0;
+}
+
+.large-4.columns {
+	padding:0 1em 1em 0;
+	margin:0;
+	float:;
+}
+
+.top-bar-section ul li > a{
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 100;
+	font-size: 1.5em;	
+}
+
+.top-bar-section {
+	margin-right: 4em;
+	margin-top: 1.35em;
+}
+
+.inline-list.right li > a{
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 100;
+	color: #e0c04c;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background-color: #ffffff;
+}
+
+.intro {
+	width:100%;
+	margin:0;
+	margin-top: 1em;
+	padding:7em 6em 4em 4em;
+	background-color: #ffffff;
+}
+
+
+.intro a:link {color:#dcb245;}      /* unvisited link */
+.intro a:visited {color:#dcb245;}  /* visited link */
+.intro a:hover {color:#d6a629;}  /* mouse over link */
+.intro a:active {color:#d6a629;}  /* selected link */
+
+.intro a:link {text-decoration:none;}
+.intro a:visited {text-decoration:none;}
+.intro a:hover {text-decoration:none;}
+.intro a:active {text-decoration:none;}
+
+
+.intro h1 {
+	font-size:5em;
+	color: black;
+}
+
+.intro h2 {
+	color: black;
+	font-size: 2em;
+}
+
+
+.row{
+	margin-left: 0;
+	width:100%;
+	max-width: 250em;
+}
+
+
+@media only screen and (max-width: 40em) {
+	.title-area img{
+		margin-left: 2em;
+	}
+
+	.intro { 
+		margin-top: 3em;
+		padding:4em 2em 2em 2em;
+	}
+
+	.intro h1 { 
+		font-size: 3em; 
+	}
+
+	.intro h2 { 
+		font-size: 1.25em; 
+	}
+
+	.intro h4 { 
+		font-size: 1em; 
+	}
+
+
+
+
